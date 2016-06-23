@@ -1,0 +1,1 @@
+$(sélecteur).action();
