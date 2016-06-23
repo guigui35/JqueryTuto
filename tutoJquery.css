@@ -1,0 +1,38 @@
+#div1{
+	width:80px;
+	height: 80px;
+	background-color:red;
+}
+
+#div2{
+	width:80px;
+	height: 80px;
+	background-color:green;
+}
+
+#div3{
+	width:80px;
+	height: 80px;	
+	background-color:blue;
+}
+
+
+p{
+	color: red;
+}
+
+.btn1{
+	background-color: blue;
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px black;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
