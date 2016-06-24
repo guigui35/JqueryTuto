@@ -1,16 +1,27 @@
-#div1{
+#btnhideshow, #hide_show, #btnfadeIn, #btnfadeOut, #btnfadeToggle, #btnslide, #btnanimate, #btnstop, #btncallback, #btnchaining, .teeest{
+display:inline-block;
+}
+
+{
+display:inline-block;
+}
+
+
+
+
+#divRouge{
 	width:80px;
 	height: 80px;
 	background-color:red;
 }
 
-#div2{
+#divVert{
 	width:80px;
 	height: 80px;
 	background-color:green;
 }
 
-#div3{
+#divBleu{
 	width:80px;
 	height: 80px;	
 	background-color:#48c;
@@ -18,7 +29,7 @@
 
 
 p{
-	color: red;
+	color: #7786a3;
 }
 
 .btn1{

@@ -2,26 +2,27 @@ $(function() {
 	$("h1").html('Hello world. Ce texte est affiché par jQuery.');
 	
 	$("#btn1").click(function(){
-		$("p").toggle(200);
+		
 	});
 	
 	$("#btn2").click(function(){
-		var div1=$("#div1");
-	    div1.toggle({
+		var divVert=$("#divVert");
+	    divVert.toggle({
 	        opacity: '0.5',
 	        fontSize: '100px'
 	    });
 	});
 
 	$("#btn3").click(function(){
-		$("#div3").fadeToggle(1000);
+		$("#divBleu").fadeToggle(1000);
 	});
+
+
+
 
 	$("#flip").click(function(){
     	$("#panel").slideToggle();
 	});
-
-	$("p:first").fadeOut(2000).fadeIn(2000).fadeOut(2000).fadeIn(2000).fadeOut(2000).fadeIn(2000).fadeOut(2000).fadeIn(2000);
 
 	$("input").focus(function(){
 	    $(this).css("background-color", "#4caf50");
@@ -44,6 +45,51 @@ $(function() {
     	$( "#couleur" ).text( str );
 	}).change();
 
+
+	$("#btnhideshow").click(function(){
+
+	});
+
+	$("#btnfadeIn").click(function(){
+
+	});
+
+	$("#btnfadeOut").click(function(){
+
+	});
+
+	$("#btnfadeToggle").click(function(){
+
+	});
+
+	$("#btnslide").click(function(){
+
+	});
+
+	$("#btnanimate").click(function(){
+
+	});
+
+	$("#btnstop").click(function(){
+
+	});
+
+	$("#btncallback").click(function(){
+
+	});
+	
+	$("#btnchaining").click(function(){
+
+	});
+
+	// $("#fadeIn").toggle();
+
+
+	// $("#hide_show").hide(5000).show(5000);
+
+	// $("#fadeIn").fadeIn(5000);
+
+	// $("#fadeOut").fadeOut(5000);
 
 });
 
