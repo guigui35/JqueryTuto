@@ -1,10 +1,10 @@
 $(sélecteur).action();
 
-$("p").hide(); // cache tous les éléments <p> du docuement html associé
+$("div")
 
-$(".test").hide(); // cache tous les éléments dont la classe est "test"
+$(".test") // Sélectionne l'élément dont la classe est "test" (peut donc en sélectionner plusieurs)
 
-$("#test").hide(); // cache l'élément dont l'id est "test"
+$("#test") // Sélectionne l'élément dont l'id est "test" (donc unique)
 
 
 $("*") // Sélectionne tous les éléments
@@ -20,3 +20,4 @@ $("a[target!='blank']") // Sélectionne tous les éléments <a> dont la valeur d
 						// l'attribut target n'est PAS égale à "_blank"
 $(":button") // Sélectionne tous les éléments <button> et les éléments <input> de type = "button"
 $("tr:even") // Sélectionne tous les éléments <tr> pairs (odd pour impairs)
+

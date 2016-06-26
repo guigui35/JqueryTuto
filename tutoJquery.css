@@ -1,13 +1,3 @@
-#btnhideshow, #hide_show, #btnfadeIn, #btnfadeOut, #btnfadeToggle, #btnslide, #btnanimate, #btnstop, #btncallback, #btnchaining, .teeest{
-display:inline-block;
-}
-
-{
-display:inline-block;
-}
-
-
-
 
 #divRouge{
 	width:80px;
@@ -27,7 +17,6 @@ display:inline-block;
 	background-color:#48c;
 }
 
-
 p{
 	color: #7786a3;
 }
@@ -46,4 +35,49 @@ p{
 #panel {
     padding: 50px;
     display: none;
+}
+
+#carré_animate{
+	background:#98bf21;
+	height:100px;
+	width:100px;
+	position:relative;
+}
+
+#lanceranimtest{
+	background:#1d2145;
+	height:100px;
+	width:100px;
+	position:relative;
+}
+
+#chaining{
+	position: relative;
+}
+
+#emptyremove{
+	height:100px;
+	width:300px;
+	border:1px solid black;
+	background-color:yellow;
+}
+
+.rougeEtGros{
+	color:red;
+	font-size: 200%;
+}
+
+#csssetget{
+	background:red;
+	width: 100px;
+	height: 100px;
+}
+
+#dimension {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
 }

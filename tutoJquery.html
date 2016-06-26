@@ -8,64 +8,72 @@
 	</head>
 
 	<body>
+
 		<div>
-			<button id="btnhideshow">hide-show</button>
-			<p class="teeest">hide-show</p>
+			<button id="btnhideshow">hide&show=toggle</button>
+			<p id="hide-show" class="teeest">hide&show=toggle</p>
 		</div>
+
+		<br />
+		<hr>
+
 		<div>
-			<button id="btnfadeIn">fadeIn</button>
-			<p class="teeest">fadeIn</p>
-		</div>		
-		<div>
-			<button id="btnfadeOut">fadeOut</button>
-			<p class="teeest">fadeOut</p>	
-		</div>		
-		<div>
-			<button id="btnfadeToggle">fadeToggle</button>		
-			<p class="teeest">fadeToggle</p>
+			<button id="btnfadeToggle">fadeIn&fadeOut=fadeToggle</button>		
+			<p id="fadeToggle" class="teeest">fadeIn&fadeOut=fadeToggle</p>
 		</div>
+
+		<br />
+		<hr>
+
 		<div>
-			<button id="btnslide">slide</button>						
-			<p class="teeest">slide</p>
+		 	<button id="btnfadeTo">fadeTo</button>		
+			<p id="fadeTo" class="teeest">fadeTo</p>
 		</div>
+
+		<br />
+		<hr>
+
 		<div>
-			<button id="btnanimate">animate</button>		
-			<p class="teeest">animate</p>
+			<button id="btnslideToggle">slideUp&slideDown=slidetoggle</button>						
+			<p id="slidetoggle" class="teeest">slideUp&slideDown=slidetoggle</p>
 		</div>
+
+		<br />
+		<hr>
+		
 		<div>
-			<button id="btnstop">stop</button>		
-			<p class="teeest">stop()</p>
+			<button id="btnanimate">animate</button>
+ 			<div id="carré_animate"></div>
 		</div>
+
+		<br />
+		<hr>
+
+		<div>
+			<button id="lancer_animation">lancer anim</button>			
+			<button id="btnstop">stop</button>
+			<p id="stop" class="teeest"></p>
+			<div id="lanceranimtest"></div>
+		</div>
+
+		<br />
+		<hr>
+
 		<div>
 			<button id="btncallback">callback</button>		
-			<p class="teeest">callback</p>
+			<p id="callback" class="teeest">callback</p>
 		</div>
+
+		<br />
+		<hr>
+
 		<div>
 			<button id="btnchaining">chaining</button>		
-			<p class="teeest">chaining</p>
+			<p id="chaining" class="teeest">chaining</p>
 		</div>
 
-
-		<div class="divtest" id="divRouge">test1</div><br>
-		<div class="divtest" id="divVert">test2</div><br>
-		<div class="divtest" id="divBleu">test3</div><br>
-		<button id="btn1">test1</button>
-		<button id="btn2">test2</button>
-		<button id="btn3">test3</button>
-
 		<br />
-		<br />
-
-		<div class="test"> blabla_div </div>
-		<p class="test"> blabla_p </p>
-		<h1 class="test"> blabla_h1 </h1>
-
-
-
-
-		<div id="flip">Click to slide the panel down or up</div>
-		<div id="panel">Hello world!</div>
-
+		<hr>
 		<form>
 			<p>
 				<label>Nom :</label>
@@ -76,6 +84,7 @@
 				<input type="text" id="prenom" />
 			</p>
    		</form>
+
 		<input class="testselect" type="text" value="Sélectionnez moi">
 		<h2>J'ai sélectionné un truc</h2>
 		<br />
@@ -89,6 +98,98 @@
 			<option>Marron</option>
 		</select>
 		<div id="couleur"></div>
+
+		<br />
+		<hr>
+
+		<div>
+			<button id="btnshowtext">Show Text</button>
+			<button id="btnshowhtml">Show HTML</button>
+			<p id="showtext">This is some <b>bold</b> text in a paragraph.</p>
+			<br />
+			<hr>
+
+
+			<button id="btnshowvalue">Show Value</button>
+			<p>Name: <input type="text" id="showvalue" value="balbla value"></p>
+			<hr>
+			<button id="btnshowattr">Show Attribut</button>
+			<p><a href="http://www.developpez.com/" id="developpez">http://www.developpez.com/</a></p>
+			<hr>
+		</div>
+
+		<br />
+		<div>
+			<button id="btnsettext">Set Text</button>
+			<button id="btnsethtml">Set HTML</button>
+			<button id="btnsetvalue">Set Value</button>
+
+			<p id="blabla1">This is a paragraph.</p>
+			<p id="blabla2">This is another paragraph.</p>
+			<p>Input field: <input type="text" id="blabla3" value="Mickey Mouse"></p>
+			<hr>
+			<p>
+				<button id="btnsetattr">Set Attribut</button>
+				<p>appuyez sur le lien suivant, ensuite clickez sur le boutton set Attribut, puis, recliquez sur le lien</p>
+				<a href="http://www.developpez.com/" id="devattr" target="_blank">link</a>
+			</p>
+
+		</div>
+		<hr>
+		<div>
+			<button id="btnsetcallback">Show Old/New Text</button>
+			<p id="setcallback">cuillère</p>
+		</div>
+		<hr>
+
+
+		<div>
+			<button id="btnappend">append</button>
+			<button id="btnprepend">prepend</button>
+			<button id="btnafter">after</button>
+			<button id="btnbefore">before</button>
+
+			<ol class="list1">
+			  <li>List item 1</li>
+			  <li>List item 2</li>
+			  <li>List item 3</li>
+			</ol>
+		</div>
+		<hr>
+
+		<button id="btnempty">retire les enfants de l'élément</button>
+		<button id="btnremove">retire l'élément ET ses enfants</button>
+
+		<div id="emptyremove">
+			<p>blabla</p>
+			<p>blabla</p>
+		</div>
+		<br />
+		<hr>
+
+		<button id="btnaddremovecss">changer couleur/taille</button>
+		<div id = "addremovecss">Je vais grossir et devenir tout rouge</div>
+
+		<br />
+		<hr>
+
+		<button id="btncssreturn">retourne l'attribut "background"</button>
+		<button id="btncssset">définit l'attribut "background"</button>
+		<button id="btnmultiplecssset">définit des attributs</button>
+
+		<div id="csssetget"></div>
+
+		<br />
+		<hr>
+
+		<button id="btngetdimension">retourne une dimension</button>
+		<button id="btnsetdimension">redéfinit une dimension</button>
+
+		<div id="dimension"></div>
+
+		<br />
+		<hr>
+
 
 	    <script src="lib/jquery-3.0.0.js"></script>
 	    <script src="tutoJquery.js"></script>
